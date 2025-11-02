@@ -25,7 +25,6 @@ public class Problem6 {
         }
         else{
             boolean isPrime = true;
-            int c =2;
             for (int i =2;i*i<n;i++){
                 if(n%i==0){
                     isPrime=false;
