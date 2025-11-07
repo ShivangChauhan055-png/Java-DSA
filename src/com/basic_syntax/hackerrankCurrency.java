@@ -43,7 +43,7 @@ Locale.CHINA → Chinese, China
 new Locale("en", "IN") → English, India
 
 
-2️⃣ NumberFormat.getCurrencyInstance(locale)
+2. NumberFormat.getCurrencyInstance(locale)
 Ye ek Java class hai jo kisi country ke format me currency print karti hai.
 NumberFormat us = NumberFormat.getCurrencyInstance(Locale.US);
 Ab us ek formatter ban gaya jo:
