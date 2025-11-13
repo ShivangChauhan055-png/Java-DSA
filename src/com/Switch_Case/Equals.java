@@ -5,15 +5,25 @@ public class Equals {
     public static void main(String[] args) {
          Scanner in = new Scanner(System.in);
          /*
-         diff between == and .equals()
-         eg:
-         string1 = "apple";
-         string2 = "apple";
-         string1==string2;   return True;
-         kyuki ye dono alg alg variable same object to target kr rhe h
-         agr alg object hote same name ke to false hota;
+          == kya karta hai?
 
-         but if we use .equals() the in both the cases we get true;
+            == memory address check karta hai.
+            Matlab do objects same jagah memory me store hain ya nahi.
+            Primitive types (int, float, char) me ye value check karta hai.
+
+           Example:
+           String a = new String("hello");
+           String b = new String("hello");
+           System.out.println(a == b);     // false   (memory location alag)
+
+     ️  .equals() kya karta hai?
+
+        .equals() objects ki value compare karta hai.
+         Matlab string ke andar jo likha hai wo same h ya nahi.
+
+         Example:
+         System.out.println(a.equals(b)); // true   (value same)
+
           */
         System.out.println("enter the fruit : ");
         String fruit = in.next();

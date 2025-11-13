@@ -17,7 +17,7 @@ public class Problem8 {
         } else if (ch>='a' && ch<='z') {
             System.out.println(ch +" is a constant");
         }else{
-            System.out.println(ch+" ois not an alphabat");
+            System.out.println(ch+" is not an alphabat");
         }
 
     }
