@@ -40,7 +40,7 @@ public class CharHashing {
             System.out.println(hash[ch]); // optimized fetch
         }
     }
-    // note: character hashing m kbhi bhi prblm nhi aaegi nhi kyuki max ch 256 hote h
+    // note: character hashing m kbhi bhi prblm nhi aaegi kyuki max ch 256 hote h
     // and array can store 256 character ..
 
     /*
