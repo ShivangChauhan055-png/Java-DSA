@@ -39,3 +39,5 @@ Sorted!
         }
     }
 }
+
+// Time Complexity is [n(n+1)]/2 == O(n*n)
