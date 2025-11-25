@@ -14,7 +14,7 @@ Ye poora process O(n log n) time me hota hai — bahut fast.
 Space complexity is O(n)
          */
 
-        int arr[] = {13,46,24,52,20,9};
+        int[] arr = {13,46,24,52,20,9};
         mergeSort(arr,0,arr.length-1);
         //print sorted array
         for(int x:arr){
