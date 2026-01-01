@@ -6,7 +6,7 @@ package com.basic_syntax;
 // 3. use that object to take input from keyword
 
 import java.util.Scanner;
-public class        Input {
+public class Input {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("enter your marks : ");

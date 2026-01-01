@@ -16,7 +16,7 @@ public class Day1 {
         // now the questions is store data of 5 students:
         // data includes(names,roll no,marks);
         // simple I can make three array of it
-        // ome is for names,and roll no,marks three different arrays
+        // one is for names,and roll no,marks three different arrays
 
         // but the questions to store data in one line
         // as we store like above 5 names and 5 int value like this
@@ -111,15 +111,6 @@ public class Day1 {
      final Student data = new Student();
      data.name = "new name" ;   // yha change kr sakte ho
       */
-
-
-
-
-
-
-
-
-
 }
 
 
