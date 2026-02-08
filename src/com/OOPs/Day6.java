@@ -504,19 +504,19 @@ INTERVIEW GOLD ONE-LINERS
 /*
 INTERVIEW POINTS:
 ---------------
-✔ clone() protected hota hai (Object class me)
-✔ Cloneable is marker interface
-✔ Without Cloneable → CloneNotSupportedException
+- clone() protected hota hai (Object class me)
+- Cloneable is marker interface
+- Without Cloneable → CloneNotSupportedException
 
 ==================================================
 FINAL INTERVIEW SUMMARY
 ==================================================
 
-✔ Generics → Type safety
-✔ Custom ArrayList → Dynamic array logic
-✔ Lambda → Functional programming
-✔ Exception Handling → Runtime safety
-✔ Cloning → Object copying
+- Generics → Type safety
+- Custom ArrayList → Dynamic array logic
+- Lambda → Functional programming
+- Exception Handling → Runtime safety
+- Cloning → Object copying
 
 ONE-LINER:
 ----------
