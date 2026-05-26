@@ -38,7 +38,7 @@ package com.Conditions__Loops;
 //}
 
 // Enhanced for loop (for each)
-class ForEachExample {
+class Loops {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
 

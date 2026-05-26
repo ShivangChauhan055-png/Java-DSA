@@ -61,7 +61,7 @@ public class TypeCasting {
 //}
 
 
-//⚖️ Key Points:
+// Key Points:
 
 //Automatic type conversion happens only if:
 
