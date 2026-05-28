@@ -58,11 +58,12 @@ TIME COMPLEXITY = O(nlogn)
         int pivot = arr[low]; // first element is pivot
         int i =low;
         for(int j = low+1; j<=high; j++){
-            if(arr[j]<=pivot) i++;
-
-            int temp = arr[i];
-            arr[i]=arr[j];
-            arr[j]= temp;
+            if(arr[j]<=pivot) {
+                i++;
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
         }
         // finally swap pivot arr[low] with arr[i]
         int temp = arr[i];
