@@ -7,6 +7,9 @@ import java.util.*;
 
 */
 public class StringNotes {
+    public static void main(String[] args) {
+
+    }
 
     /*
     ------------------------------------
@@ -178,6 +181,27 @@ public class StringNotes {
     - StringBuilder is faster than String
     - String literals are stored in String Pool
     */
+
+    // NOTE :
+    //if we have to compare two string and check which one is big or small use compareTo
+    String a = "abcd";
+    String b = "ABCD";
+    // sout(a.compareTo(b)>0) means a > b
+    // sout(a.compareTo(b)<0) means a < b
+    // otherwise equal
+
+    /*
+    but this compareTo is case sensitive
+    if we compare string without seeing the lower and upper case or without caseSensitive
+    use compareToIgnoreCase
+
+    for example :
+    String a = "abcd";
+    String b = "ABCD";
+    sout(a.compareToIgnoreCase(b)); then it shows both are equal;
+     */
+
+
 
 }
 
