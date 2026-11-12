@@ -6,7 +6,7 @@ import java.util.*;
 ====================================================
 
 */
-public class StringNotes {
+public class  StringNotes {
     public static void main(String[] args) {
 
     }
